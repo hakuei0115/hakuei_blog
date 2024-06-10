@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+
+<html theme="dark" showBanner="true" hasBanner="true" > 
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/fontawesome.min.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/brands.min.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/solid.min.css" rel="stylesheet">
+<script src="/Blog/js/color.global.min.js" ></script>
+<script src="/Blog/js/load-settings.js" ></script>
+<head>
+  <meta charset="utf-8">
+  
+  
+  
+
+  
+  <title>提升網頁SEO的指南：從基本原則到Schema.org和Open Graph (持續更新) | Hakuei&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" href="/Blog/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/Blog/css/fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+
+  <meta name="description" content="SEO（Search Engine Optimization，搜尋引擎優化）是提升網站在搜尋引擎結果頁（SERP）中排名的重要策略。這不僅有助於提高網站的可見度，還能吸引更多潛在用戶訪問你的網站。本文將介紹SEO的基本原則，並重點說明Schema.org和Open Graph如何幫助提升網站的SEO表現。 一、SEO的基本原則1. 高質量內容高質量的內容不僅能吸引和留住訪客，還能提高搜尋引擎的排名">
+<meta property="og:type" content="article">
+<meta property="og:title" content="提升網頁SEO的指南：從基本原則到Schema.org和Open Graph (持續更新)">
+<meta property="og:url" content="https://hakuei0115.github.io/Blog/2024/06/10/SEO-introduce/index.html">
+<meta property="og:site_name" content="Hakuei&#39;s Blog">
+<meta property="og:description" content="SEO（Search Engine Optimization，搜尋引擎優化）是提升網站在搜尋引擎結果頁（SERP）中排名的重要策略。這不僅有助於提高網站的可見度，還能吸引更多潛在用戶訪問你的網站。本文將介紹SEO的基本原則，並重點說明Schema.org和Open Graph如何幫助提升網站的SEO表現。 一、SEO的基本原則1. 高質量內容高質量的內容不僅能吸引和留住訪客，還能提高搜尋引擎的排名">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://hakuei0115.github.io/Blog/images/Shema.png">
+<meta property="article:published_time" content="2024-06-10T12:56:23.000Z">
+<meta property="article:modified_time" content="2024-06-10T13:31:58.394Z">
+<meta property="article:author" content="Hakuei">
+<meta property="article:tag" content="SEO">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://hakuei0115.github.io/Blog/images/Shema.png">
+  
+  
+    <link rel="shortcut icon" href="/Blog/images/logo.ico">
+  
+  
+  
+<link rel="stylesheet" href="/Blog/css/style.css">
+
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+<body>
+  
+  
+    
+<div id="banner" class="">
+  <img src="/Blog/images/banner.jpg" itemprop="image">
+  <div id="banner-dim"></div>
+</div>
+ 
+   
+  <div id="main-grid" class="  ">
+    <div id="nav" class=""  >
+      <navbar id="navbar">
+  <nav id="title-nav">
+    <a href="/Blog/">
+      <div id="vivia-logo">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <div>Hakuei's Blog </div>
+    </a>
+  </nav>
+  <nav id="main-nav">
+    
+      <a class="main-nav-link" href="/Blog/">主頁</a>
+    
+      <a class="main-nav-link" href="/Blog/archives">歸檔</a>
+    
+      <a class="main-nav-link" href="/Blog/about">關於我</a>
+    
+  </nav>
+  <nav id="sub-nav">
+    <a id="theme-btn" class="nav-icon">
+      <span class="light-mode-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M438.5-829.913v-48q0-17.452 11.963-29.476 11.964-12.024 29.326-12.024 17.363 0 29.537 12.024t12.174 29.476v48q0 17.452-11.963 29.476-11.964 12.024-29.326 12.024-17.363 0-29.537-12.024T438.5-829.913Zm0 747.826v-48q0-17.452 11.963-29.476 11.964-12.024 29.326-12.024 17.363 0 29.537 12.024t12.174 29.476v48q0 17.452-11.963 29.476-11.964 12.024-29.326 12.024-17.363 0-29.537-12.024T438.5-82.087ZM877.913-438.5h-48q-17.452 0-29.476-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537t29.476-12.174h48q17.452 0 29.476 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T877.913-438.5Zm-747.826 0h-48q-17.452 0-29.476-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537T82.087-521.5h48q17.452 0 29.476 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T130.087-438.5Zm660.174-290.87-34.239 32q-12.913 12.674-29.565 12.174-16.653-.5-29.327-13.174-12.674-12.673-12.554-28.826.12-16.152 12.794-28.826l33-35q12.913-12.674 30.454-12.674t30.163 12.847q12.709 12.846 12.328 30.826-.38 17.98-13.054 30.653ZM262.63-203.978l-32 34q-12.913 12.674-30.454 12.674t-30.163-12.847q-12.709-12.846-12.328-30.826.38-17.98 13.054-30.653l33.239-31q12.913-12.674 29.565-12.174 16.653.5 29.327 13.174 12.674 12.673 12.554 28.826-.12 16.152-12.794 28.826Zm466.74 33.239-32-33.239q-12.674-12.913-12.174-29.565.5-16.653 13.174-29.327 12.673-12.674 28.826-13.054 16.152-.38 28.826 12.294l35 33q12.674 12.913 12.674 30.454t-12.847 30.163q-12.846 12.709-30.826 12.328-17.98-.38-30.653-13.054ZM203.978-697.37l-34-33q-12.674-12.913-13.174-29.945-.5-17.033 12.174-29.707t31.326-13.293q18.653-.62 31.326 13.054l32 34.239q11.674 12.913 11.174 29.565-.5 16.653-13.174 29.327-12.673 12.674-28.826 12.554-16.152-.12-28.826-12.794ZM480-240q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm-.247-82q65.703 0 111.475-46.272Q637-414.544 637-480.247t-45.525-111.228Q545.95-637 480.247-637t-111.475 45.525Q323-545.95 323-480.247t45.525 111.975Q414.05-322 479.753-322ZM481-481Z"/></svg></span>
+      <span class="dark-mode-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M480.239-116.413q-152.63 0-258.228-105.478Q116.413-327.37 116.413-480q0-130.935 77.739-227.435t206.304-125.043q43.022-9.631 63.87 10.869t3.478 62.805q-8.891 22.043-14.315 44.463-5.424 22.42-5.424 46.689 0 91.694 64.326 155.879 64.325 64.186 156.218 64.186 24.369 0 46.978-4.946 22.609-4.945 44.413-14.076 42.826-17.369 62.967 1.142 20.142 18.511 10.511 61.054Q807.174-280 712.63-198.206q-94.543 81.793-232.391 81.793Zm0-95q79.783 0 143.337-40.217 63.554-40.218 95.793-108.283-15.608 4.044-31.097 5.326-15.49 1.283-31.859.805-123.706-4.066-210.777-90.539-87.071-86.473-91.614-212.092-.24-16.369.923-31.978 1.164-15.609 5.446-30.978-67.826 32.478-108.282 96.152Q211.652-559.543 211.652-480q0 111.929 78.329 190.258 78.329 78.329 190.258 78.329ZM466.13-465.891Z"/></svg></span>
+    </a>
+    
+    <div id="nav-menu-btn" class="nav-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M177.37-252.282q-17.453 0-29.477-11.964-12.024-11.963-12.024-29.326t12.024-29.537q12.024-12.174 29.477-12.174h605.26q17.453 0 29.477 11.964 12.024 11.963 12.024 29.326t-12.024 29.537q-12.024 12.174-29.477 12.174H177.37Zm0-186.218q-17.453 0-29.477-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537T177.37-521.5h605.26q17.453 0 29.477 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T782.63-438.5H177.37Zm0-186.217q-17.453 0-29.477-11.964-12.024-11.963-12.024-29.326t12.024-29.537q12.024-12.174 29.477-12.174h605.26q17.453 0 29.477 11.964 12.024 11.963 12.024 29.326t-12.024 29.537q-12.024 12.174-29.477 12.174H177.37Z"/></svg>
+    </div>
+  </nav>
+</navbar>
+<div id="nav-dropdown" class="hidden">
+  <div id="dropdown-link-list">
+    
+      <a class="nav-dropdown-link" href="/Blog/">主頁</a>
+    
+      <a class="nav-dropdown-link" href="/Blog/archives">歸檔</a>
+    
+      <a class="nav-dropdown-link" href="/Blog/about">關於我</a>
+    
+     
+    </div>
+</div>
+<script>
+  let dropdownBtn = document.getElementById("nav-menu-btn");
+  let dropdownEle = document.getElementById("nav-dropdown");
+  dropdownBtn.onclick = function() {
+    dropdownEle.classList.toggle("hidden");
+  }
+</script>
+    </div>
+    <div id="sidebar-wrapper">
+      <sidebar id="sidebar">
+  
+    <div class="widget-wrap">
+  <div class="info-card">
+    <div class="avatar">
+      
+        <image src=/Blog/images/avatar.jpg></image>
+      
+      <div class="img-dim"></div>
+    </div>
+    <div class="info">
+      <div class="username">Hakuei </div>
+      <div class="dot"></div>
+      <div class="subtitle">歡迎來到 Hakuei 的部落格 </div>
+      <div class="link-list">
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/柏叡-林-b95139306" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://store.steampowered.com" title="Steam"><i class="fa-brands fa-steam"></i></a>
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://github.com/hakuei0115" title="GitHub"><i class="fa-brands fa-github"></i></a>
+         
+      </div>  
+    </div>
+  </div>
+</div>
+
+  
+  <div class="sticky">
+    
+      
+
+
+  <div class="widget-wrap">
+    <div class="widget">
+      <h3 class="widget-title">分類</h3>
+      <div class="category-box">
+            <a class="category-link" href="/Blog/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AD%98/">
+                前端知識
+                <div class="category-count">4</div>
+            </a>
+        </div>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap">
+    <div class="widget">
+      <h3 class="widget-title">標籤</h3>
+      <ul class="widget-tag-list" itemprop="keywords"><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/Blog/tags/CSS/" rel="tag">CSS</a></li><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/Blog/tags/JavaScript/" rel="tag">JavaScript</a></li><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/Blog/tags/SEO/" rel="tag">SEO</a></li><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/Blog/tags/test/" rel="tag">test</a></li></ul>
+    </div>
+  </div>
+
+
+    
+  </div>
+</sidebar>
+    </div>
+    <div id="content-body">
+       
+
+
+<article id="post-SEO-introduce" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  
+    
+   
+  <div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 class="p-name article-title" itemprop="headline name">
+        提升網頁SEO的指南：從基本原則到Schema.org和Open Graph (持續更新)
+      </h1>
+    
+  
+</div>
+
+          
+            <div class='meta-info-bar'>
+              <div class="meta-info">
+  <time class="dt-published" datetime="2024-06-10T12:56:23.000Z" itemprop="datePublished">2024-06-10</time>
+</div>
+              <div class="need-seperator meta-info">
+                <div class="meta-cate-flex">
+  
+  <a class="meta-cate-link" href="/Blog/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AD%98/">前端知識</a>
+   
+</div>
+  
+              </div>
+              <div class="wordcount need-seperator meta-info">
+                4k 詞 
+              </div>
+            </div>
+            
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Blog/tags/SEO/" rel="tag">SEO</a></li></ul>
+
+          
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+          <p>SEO（Search Engine Optimization，搜尋引擎優化）是提升網站在搜尋引擎結果頁（SERP）中排名的重要策略。這不僅有助於提高網站的可見度，還能吸引更多潛在用戶訪問你的網站。本文將介紹SEO的基本原則，並重點說明Schema.org和Open Graph如何幫助提升網站的SEO表現。</p>
+<h1 id="一、SEO的基本原則"><a href="#一、SEO的基本原則" class="headerlink" title="一、SEO的基本原則"></a>一、SEO的基本原則</h1><h2 id="1-高質量內容"><a href="#1-高質量內容" class="headerlink" title="1. 高質量內容"></a>1. 高質量內容</h2><p>高質量的內容不僅能吸引和留住訪客，還能提高搜尋引擎的排名。撰寫內容時，應注意以下幾點：</p>
+<ol>
+<li>有價值的信息：提供對讀者有幫助的信息，解決他們的問題。</li>
+<li>定期更新：保持內容的新鮮度和相關性，定期發布新的內容。</li>
+<li>自然融入關鍵字：將相關的關鍵字自然地融入內容中，確保不影響閱讀體驗。</li>
+</ol>
+<h2 id="2-網站結構"><a href="#2-網站結構" class="headerlink" title="2. 網站結構"></a>2. 網站結構</h2><p>良好的網站結構有助於搜尋引擎爬蟲更高效地索引你的網站。以下是一些網站結構優化的建議：</p>
+<ol>
+<li>清晰的導航：確保網站的導航結構清晰易懂，方便用戶和搜尋引擎瀏覽。</li>
+<li>使用內部鏈接：適當地使用內部鏈接來連接相關內容，增強網站的內部結構。</li>
+</ol>
+<h2 id="3-網頁速度"><a href="#3-網頁速度" class="headerlink" title="3. 網頁速度"></a>3. 網頁速度</h2><p>網頁速度是SEO的一個重要因素。較快的頁面加載速度能提升用戶體驗，並可能提高搜尋引擎的排名。</p>
+<ol>
+<li>優化圖片：壓縮圖片大小，使用合適的圖片格式。</li>
+<li>使用CDN：使用內容分發網絡（CDN）來加速網站的全球傳輸速度。</li>
+</ol>
+<h2 id="4-移動端優化"><a href="#4-移動端優化" class="headerlink" title="4. 移動端優化"></a>4. 移動端優化</h2><p>隨著移動設備的普及，確保網站在移動端的優化同樣至關重要。Google已經將移動端優化作為排名因素之一。</p>
+<ol>
+<li>響應式設計：確保網站在不同設備上都能有良好的顯示效果。</li>
+<li>移動友好內容：簡化移動端的導航和操作，提高用戶體驗。</li>
+</ol>
+<h2 id="5-用戶體驗（UX）"><a href="#5-用戶體驗（UX）" class="headerlink" title="5. 用戶體驗（UX）"></a>5. 用戶體驗（UX）</h2><p>用戶體驗是SEO的核心因素之一。提升用戶體驗有助於降低跳出率，增加停留時間。</p>
+<ol>
+<li>易讀性：使用清晰的字體和段落結構，使內容易於閱讀。</li>
+<li>互動性：增加圖片、影片、互動內容等，提升用戶的參與度。</li>
+</ol>
+<h1 id="二、Schema-org"><a href="#二、Schema-org" class="headerlink" title="二、Schema.org"></a>二、Schema.org</h1><h2 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a>核心概念</h2><p>Schema.org是由Google、Microsoft、Yahoo和Yandex共同發起的結構化數據標記語言。通過在HTML中添加Schema.org標記，可以幫助搜尋引擎更好地理解網頁內容，從而在搜尋結果中提供更豐富的信息展示（如豐富摘要）。</p>
+<h2 id="範例程式碼"><a href="#範例程式碼" class="headerlink" title="範例程式碼"></a>範例程式碼</h2><p>以下是一個使用Schema.org標記的範例，標記一個產品的信息：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">itemscope</span> <span class="attr">itemtype</span>=<span class="string">&quot;https://schema.org/Product&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">&quot;name&quot;</span>&gt;</span>Amazing Product<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">itemprop</span>=<span class="string">&quot;image&quot;</span> <span class="attr">src</span>=<span class="string">&quot;amazing-product.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;Amazing Product&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">&quot;description&quot;</span>&gt;</span>This is an amazing product that you will love.<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">&quot;brand&quot;</span>&gt;</span>Awesome Brand<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">&quot;offers&quot;</span> <span class="attr">itemscope</span> <span class="attr">itemtype</span>=<span class="string">&quot;https://schema.org/Offer&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">&quot;priceCurrency&quot;</span> <span class="attr">content</span>=<span class="string">&quot;USD&quot;</span>&gt;</span>$<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">&quot;price&quot;</span> <span class="attr">content</span>=<span class="string">&quot;29.99&quot;</span>&gt;</span>29.99<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">itemprop</span>=<span class="string">&quot;availability&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://schema.org/InStock&quot;</span>&gt;</span>In stock<span class="tag">&lt;/<span class="name">link</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><code>&lt;div itemscope itemtype=&quot;https://schema.org/Product&quot;&gt;</code>：定義了一個包含產品信息的區塊，使用itemscope表示這是一個獨立的項目，itemtype指定這是類型為Product的Schema.org類型。</li>
+<li><code>&lt;span itemprop=&quot;name&quot;&gt;Amazing Product&lt;/span&gt;</code>：標記產品的名稱。</li>
+<li><code>&lt;img itemprop=&quot;image&quot; src=&quot;amazing-product.jpg&quot; alt=&quot;Amazing Product&quot;&gt;</code>：標記產品的圖片。</li>
+<li><code>&lt;span itemprop=&quot;description&quot;&gt;This is an amazing product that you will love.&lt;/span&gt;</code>：標記產品的描述。</li>
+<li><code>&lt;span itemprop=&quot;brand&quot;&gt;Awesome Brand&lt;/span&gt;</code>：標記產品的品牌。</li>
+<li><code>&lt;span itemprop=&quot;offers&quot; itemscope itemtype=&quot;https://schema.org/Offer&quot;&gt;</code>：標記產品的報價信息，itemscope表示這是一個獨立的報價項目，itemtype指定這是類型為Offer的Schema.org類型。</li>
+<li><code>&lt;span itemprop=&quot;priceCurrency&quot; content=&quot;USD&quot;&gt;$&lt;/span&gt;</code>：標記價格的貨幣類型。</li>
+<li><code>&lt;span itemprop=&quot;price&quot; content=&quot;29.99&quot;&gt;29.99&lt;/span&gt;</code>：標記產品的價格。</li>
+<li><code>&lt;link itemprop=&quot;availability&quot; href=&quot;https://schema.org/InStock&quot;&gt;In stock&lt;/link&gt;</code>：標記產品的庫存狀態。</li>
+</ol>
+<p>在google搜尋頁面大概會長這樣:<br><img src="/Blog/images/Shema.png" alt="img"></p>
+<h2 id="優點"><a href="#優點" class="headerlink" title="優點"></a>優點</h2><ul>
+<li>提升搜尋引擎理解：幫助搜尋引擎更好地理解和索引網頁內容。</li>
+<li>豐富摘要：在搜尋結果中顯示豐富摘要（如評價星級、價格），提高點擊率。</li>
+</ul>
+<h1 id="三、Open-Graph"><a href="#三、Open-Graph" class="headerlink" title="三、Open Graph"></a>三、Open Graph</h1><h2 id="核心觀念"><a href="#核心觀念" class="headerlink" title="核心觀念"></a>核心觀念</h2><p>Open Graph是由Facebook推出的協議，旨在讓網頁在社交媒體平台上分享時顯示更豐富的信息。通過在HTML中添加Open Graph標籤，可以自定義分享到社交媒體時顯示的標題、描述、圖片等信息。</p>
+<h2 id="範例代碼"><a href="#範例代碼" class="headerlink" title="範例代碼"></a>範例代碼</h2><p>以下是一個使用Open Graph標記的範例：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">&quot;og:title&quot;</span> <span class="attr">content</span>=<span class="string">&quot;Amazing Product&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">&quot;og:description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;This is an amazing product that you will love.&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">&quot;og:image&quot;</span> <span class="attr">content</span>=<span class="string">&quot;https://example.com/amazing-product.jpg&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">&quot;og:url&quot;</span> <span class="attr">content</span>=<span class="string">&quot;https://example.com/amazing-product&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><code>&lt;meta property=&quot;og:title&quot; content=&quot;Amazing Product&quot;&gt;</code>：設置分享時顯示的標題。</li>
+<li><code>&lt;meta property=&quot;og:description&quot; content=&quot;This is an amazing product that you will love.&quot;&gt;</code>：設置分享時顯示的描述。</li>
+<li><code>&lt;meta property=&quot;og:image&quot; content=&quot;https://example.com/amazing-product.jpg&quot;&gt;</code>：設置分享時顯示的圖片。</li>
+<li><code>&lt;meta property=&quot;og:url&quot; content=&quot;https://example.com/amazing-product&quot;&gt;</code>：設置分享時指向的URL。</li>
+</ol>
+<blockquote>
+<p>Open Graph是控制在社交媒體上分享時的標題、描述和圖片，這裡僅能提供程式碼做參考而無法提供圖片</p>
+</blockquote>
+<h2 id="優點-1"><a href="#優點-1" class="headerlink" title="優點"></a>優點</h2><ul>
+<li>自定義分享信息：控制在社交媒體上分享時顯示的標題、描述和圖片。</li>
+<li>提升點擊率：通過吸引人的分享信息，提高點擊率。</li>
+</ul>
+<h1 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h1><p>提升網頁的SEO需要綜合考慮多個方面，從高質量內容、網站結構、網頁速度到用戶體驗，每個環節都不可忽視。此外，利用Schema.org和Open Graph等技術手段，可以進一步提升搜尋引擎和社交媒體上的表現。希望這篇文章能幫助你理解和應用這些SEO技巧，讓你的網站在搜尋引擎中脫穎而出。</p>
+
+        
+      </div>
+
+         
+    </div>
+    
+     
+  </div>
+  
+    
+<nav id="article-nav">
+  <a class="article-nav-btn left  disabled "
+     >
+    <i class="fa-solid fa-angle-left"></i>
+    <p class="title-text">
+        
+    </p>
+  </a>
+  <a class="article-nav-btn right "
+    
+      href="/Blog/2024/06/10/CSS-Methodologies/"
+      title="深入淺出 OOCSS、SMACSS、BEM三種CSS命名規則詳解"
+     >
+
+    <p class="title-text">
+      
+        深入淺出 OOCSS、SMACSS、BEM三種CSS命名規則詳解
+        
+    </p>
+    <i class="fa-solid fa-angle-right"></i>
+  </a>
+</nav>
+
+
+  
+</article>
+
+
+  
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <div id="comment-card" class="comment-card">
+    <div class="main-title-bar">
+      <div class="main-title-dot"></div>
+      <div class="main-title">留言 </div>
+    </div>
+    <div id="vcomments"></div>
+  </div>
+  <script>
+      new Valine({"enable":true,"appId":"BXeQOXw42qLoWRqVYJbhUh5M-MdYXbMMI","appKey":"TjGhm5mnLwrt1shNO4uOZm9C","lang":"zh-TW","placeholder":"Send a message","pageSize":10,"highlight":true,"serverURLs":"https://bxeqoxw4.api.lncldglobal.com","el":"#vcomments"});
+  </script>
+
+
+
+
+
+    </div>
+    <div id="footer-wrapper">
+      <footer id="footer">
+  
+  <div id="footer-info" class="inner">
+    
+    &copy; 2024 Hakuei<br>
+    Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & Theme <a target="_blank" rel="noopener" href="https://github.com/saicaca/hexo-theme-vivia">Vivia</a>
+  </div>
+</footer>
+
+    </div>
+    <div class="back-to-top-wrapper">
+    <button id="back-to-top-btn" class="back-to-top-btn hide" onclick="topFunction()">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+</div>
+
+<script>
+    function topFunction() {
+        window.scroll({ top: 0, behavior: 'smooth' });
+    }
+    let btn = document.getElementById('back-to-top-btn');
+    function scrollFunction() {
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+            btn.classList.remove('hide')
+        } else {
+            btn.classList.add('hide')
+        }
+    }
+    window.onscroll = function() {
+        scrollFunction();
+    }
+</script>
+
+  </div>
+  <script src="/Blog/js/light-dark-switch.js"></script>
+</body>
+</html>
