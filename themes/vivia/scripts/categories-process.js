@@ -40,10 +40,9 @@ function list_to_tree(list) {
 
 hexo.on('generateAfter', function(post){
     let depth = Infinity;
-    // hexo.config.theme_config 更改为 hexo.theme，不然会报错 theme_config 不存在
-    if (hexo.theme.categories && hexo.theme.categories.max_depth
-            && hexo.theme.categories.max_depth > 0) {
-        depth = hexo.theme.categories.max_depth;
+    const categories = hexo.theme.config.categories;
+    if (categories && categories.max_depth > 0) {
+        depth = categories.max_depth;
     }
     let tree = list_to_tree(hexo.locals.get("categories").find({}).data);
     let cate_tree = build_tag_tree(tree, 1, depth);
@@ -51,4 +50,3 @@ hexo.on('generateAfter', function(post){
         return cate_tree;
     })
 });
-  

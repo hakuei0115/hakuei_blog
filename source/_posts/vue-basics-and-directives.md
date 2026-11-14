@@ -3,6 +3,7 @@ title: Vue.js 基礎觀念與指令介紹
 date: 2024-08-07 16:16:41
 categories: Vue.js 介紹
 tags: "Vue"
+disableNunjucks: true
 ---
 
 Vue.js 是一個漸進式的 JavaScript 框架，主要用於構建用戶界面。它的設計理念是讓開發者可以逐步採用 Vue 的功能，從簡單的單一文件元件（Single File Components）開始，到更複雜的應用程序架構。Vue.js 提供了強大的指令（Directives）系統，這些指令能幫助我們高效地綁定數據和 DOM 元素，從而讓開發過程更加便捷和靈活。這篇文章將介紹 Vue.js 的幾個基本指令，幫助你快速上手這個強大的框架。
